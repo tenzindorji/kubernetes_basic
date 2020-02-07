@@ -26,3 +26,17 @@ Cluster details
   ```
 
 Deploy App by creating deployment. Need to provide the deployment name and app image location.
+```
+  kubectl create deployment kubernetes-bootcamp --image=gcr.io/google-samples/kubernetes-bootcamp:v1
+  ```
+To list deployments:
+```
+  kubectl get deployments
+  ```
+Pod details:
+```
+  kubectl get pod
+  ```
+```
+  kubectl describe pods
+  ```
